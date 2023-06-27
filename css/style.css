@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(../images/angel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding-top: 550px;
+    margin-bottom: 70px;
+}
+
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 10rem;
+}
+
+main {
+    position: relative;
+}
+
+.imgderecha {
+    float: right;
+    width: 360px;
+    padding-right: 180px;
+}
+
+.parte1 {
+    padding-left: 200px;
+}
+
+section {
+    margin-top: 100px;
+    padding: 20px 50px 50px 200px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.degradado {
+    background: linear-gradient(to left, #e9216a 40%, #d8434a 60% );
+   -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.go {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 25px;
+    background-color: #FA5C65;
+    padding: 15px 35px 15px;
+    text-decoration: none;
+}
+
+.izquierda {
+    float: left;
+    margin-bottom: 33px;
+    width: 360px;
+    padding-right: 180px;
+    margin-right: 100px;
+}
+
+.guitarra {
+    background-image: url(../images/raptis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 550px;
+    color: #fff;
+    padding-right: 250px;
+}
+
+.encima {
+    position: absolute;
+    top: 70%;
+    padding-left: 630px;
+    margin-top: 70px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+footer {
+    background: linear-gradient(to left, #e9216a 40%, #d8434a 60% );
+    padding: 80px 0 40px 0;
+    color: #fff;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.parte-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+}
+
+.links {
+    width: 21%;
+    margin-bottom: 40px;
+}
+
+.links h4 {
+    color: #fff;
+    margin-bottom: 58px;
+    font-weight: 500px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+}
+
+.ultparte {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.ultparte p {
+    width: 50%;
+    margin: 0 auto;
+}
